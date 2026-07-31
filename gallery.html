@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Galerry foto dilraba — @dilrabafansbase. Arsip visual, portrait, editorial, dan koleksi pilihan.">
+<title>Gallery — Galerry foto dilraba</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif'],display:['Playfair Display','serif']}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="fixed top-0 left-0 right-0 z-40 nav-glass">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 h-20 flex items-center justify-between">
+    <a href="index.html" class="font-display text-xl font-semibold text-[#023E8A]">Galerry <span class="text-[#0077B6]">foto dilraba</span></a>
+    <nav class="hidden lg:flex items-center gap-7"><a href="index.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Home</a><a href="gallery.html" class="text-sm font-semibold transition text-[#0077B6]" data-mobile-link>Gallery</a><a href="portraits.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Portraits</a><a href="editorial.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Editorial</a><a href="collections.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Collections</a><a href="about.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>About</a><a href="contact.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Contact</a></nav>
+    <button id="menuBtn" class="lg:hidden w-10 h-10 rounded-xl border border-blue-100 text-[#023E8A]" aria-label="Buka menu">☰</button>
+  </div>
+  <div id="mobileMenu" class="mobile-menu lg:hidden bg-white border-t border-blue-50">
+    <nav class="max-w-7xl mx-auto px-5 py-4 grid gap-3"><a href="index.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Home</a><a href="gallery.html" class="text-sm font-semibold transition text-[#0077B6]" data-mobile-link>Gallery</a><a href="portraits.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Portraits</a><a href="editorial.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Editorial</a><a href="collections.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Collections</a><a href="about.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>About</a><a href="contact.html" class="text-sm font-semibold transition text-slate-700 hover:text-[#0077B6]" data-mobile-link>Contact</a></nav>
+  </div>
+</header>
+<main class="pt-20">
+<section class="max-w-7xl mx-auto px-5 lg:px-8 py-16">
+<div class="reveal max-w-3xl"><div class="text-xs font-bold uppercase tracking-widest text-[#0077B6]">Gallery</div><h1 class="font-display text-5xl text-[#023E8A] mt-2">The complete visual wall.</h1><p class="text-slate-600 mt-4 leading-7">Kumpulan frame pilihan untuk dijelajahi secara bebas. Klik gambar untuk membuka lightbox.</p></div>
+<div class="mt-10"><div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba1/900/1100" data-alt="Gallery Frame 01" data-title="Gallery Frame 01">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba1/900/1100" alt="Gallery Frame 01" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 01</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba2/900/1100" data-alt="Gallery Frame 02" data-title="Gallery Frame 02">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba2/900/1100" alt="Gallery Frame 02" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 02</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba3/900/1100" data-alt="Gallery Frame 03" data-title="Gallery Frame 03">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba3/900/1100" alt="Gallery Frame 03" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 03</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba4/900/1100" data-alt="Gallery Frame 04" data-title="Gallery Frame 04">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba4/900/1100" alt="Gallery Frame 04" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 04</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba5/900/1100" data-alt="Gallery Frame 05" data-title="Gallery Frame 05">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba5/900/1100" alt="Gallery Frame 05" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 05</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba6/900/1100" data-alt="Gallery Frame 06" data-title="Gallery Frame 06">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba6/900/1100" alt="Gallery Frame 06" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 06</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba7/900/1100" data-alt="Gallery Frame 07" data-title="Gallery Frame 07">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba7/900/1100" alt="Gallery Frame 07" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 07</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba8/900/1100" data-alt="Gallery Frame 08" data-title="Gallery Frame 08">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba8/900/1100" alt="Gallery Frame 08" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 08</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba9/900/1100" data-alt="Gallery Frame 09" data-title="Gallery Frame 09">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba9/900/1100" alt="Gallery Frame 09" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 09</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba10/900/1100" data-alt="Gallery Frame 10" data-title="Gallery Frame 10">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba10/900/1100" alt="Gallery Frame 10" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 10</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba11/900/1100" data-alt="Gallery Frame 11" data-title="Gallery Frame 11">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba11/900/1100" alt="Gallery Frame 11" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 11</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button><button class="gallery-card card overflow-hidden rounded-2xl text-left bg-white reveal" data-lightbox data-src="https://picsum.photos/seed/dilraba12/900/1100" data-alt="Gallery Frame 12" data-title="Gallery Frame 12">
+        <div class="aspect-[4/5] overflow-hidden"><img class="gallery-img w-full h-full object-cover" src="https://picsum.photos/seed/dilraba12/900/1100" alt="Gallery Frame 12" loading="lazy"></div>
+        <div class="p-4"><div class="font-semibold">Gallery Frame 12</div><div class="text-xs text-slate-500 mt-1">Archive / selected</div></div></button></div></div>
+</section>
+<div id="lightbox" class="lightbox fixed inset-0 z-50 bg-[#031a2b]/90 flex items-center justify-center p-5"><button id="lbClose" class="absolute top-6 right-6 text-white text-3xl" aria-label="Tutup">×</button><div class="max-w-4xl w-full"><img id="lightboxImg" class="max-h-[78vh] w-full object-contain rounded-xl" src="" alt=""><div id="lightboxTitle" class="text-white font-display text-xl mt-4"></div></div></div>
+</main>
+<footer class="bg-[#031a2b] text-white mt-20">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div><div class="font-display text-2xl">Galerry foto dilraba</div><p class="text-slate-300 text-sm mt-3 leading-6">Arsip visual fanbase dengan pendekatan editorial yang rapi, ringan, dan mudah dijelajahi.</p></div>
+    <div><h3 class="font-semibold mb-4">Explore</h3><div class="grid gap-2 text-sm text-slate-300"><a href="gallery.html" class="hover:text-white">Gallery</a><a href="portraits.html" class="hover:text-white">Portraits</a><a href="editorial.html" class="hover:text-white">Editorial</a><a href="collections.html" class="hover:text-white">Collections</a></div></div>
+    <div><h3 class="font-semibold mb-4">Information</h3><div class="grid gap-2 text-sm text-slate-300"><a href="about.html" class="hover:text-white">About</a><a href="contact.html" class="hover:text-white">Contact</a><span>Tagline: @dilrabafansbase</span></div></div>
+    <div><h3 class="font-semibold mb-4">Social</h3><p class="text-sm text-slate-300 leading-6">Ikuti akun resmi fanbase untuk update koleksi, rilisan, dan arsip terbaru.</p><div class="mt-4 text-sm font-semibold text-sky-300">@dilrabafansbase</div></div>
+  </div>
+  <div class="border-t border-white/10"><div class="max-w-7xl mx-auto px-5 lg:px-8 py-5 text-xs text-slate-400">© <span id="year"></span> Galerry foto dilraba. Fan-made archive.</div></div>
+</footer>
+<button id="backTop" class="fixed bottom-6 right-6 z-30 w-11 h-11 rounded-full bg-[#0077B6] text-white shadow-xl transition opacity-0 pointer-events-none" aria-label="Kembali ke atas">↑</button>
+<script src="assets/js/app.js"></script>
+</body></html>
